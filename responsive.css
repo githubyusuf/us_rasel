@@ -1,0 +1,150 @@
+@media (max-width: 992px){
+    .title {
+        font-size: 14px !important;
+    }
+    .btn .btn-one{
+        font-size: 13px;
+    }
+    .btn .btn-two{
+        font-size: 13px;
+    }
+    .btn {
+        padding-left: 0px;
+    }
+    .btn-one :after {
+        height: 14px;
+        width: 14px;
+    }
+    .btn-two :after {
+        height: 14px;
+        width: 14px;
+    }
+}
+
+@media (max-width: 768px){
+    .btn {
+        padding-left: 0px;
+        margin-left: -9px;
+    }
+    .btn .btn-one{
+        font-size: 10px;
+        max-width: 100px;
+    }
+    .btn .btn-two{
+        font-size: 10px;
+        /* max-width: 100px; */
+    }
+    .btn .btn-one {
+        min-width: 163px!important;
+    }
+    .btn .btn-two {
+        min-width: 163px!important;
+    }
+    .btn-one :after {
+        height: 11px;
+        width: 11px;
+    }
+    .btn-two :after {
+        height: 11px;
+        width: 11px;
+    }
+    .list ul li{
+        font-size: 14px;
+    }
+}
+@media (max-width: 660px){
+    .div-one{
+       flex: 0 0 100%;
+       max-width: 100%;
+       margin-bottom: 25px;
+    }
+    .btn{
+        display: block;
+    }
+   
+    .btn .btn-one{
+        font-size: 13px;
+    }
+    .btn .btn-two{
+        font-size: 13px;
+    }
+    .btn-one :after {
+        height: 12px;
+        width: 12px;
+    }
+    .btn-two :after {
+        height: 12px;
+        width: 12px;
+    }
+    .btn .btn-one {
+        min-width: 200px !important;
+    }
+    .btn .btn-two {
+        min-width: 200px !important;
+    }
+    .box-two{
+        border: 1px solid #dfdfdf;
+    }
+}
+
+@media (max-width: 575px){
+
+    .btn .btn-one {
+        min-width: 50% !important;
+        margin: 25px;
+    }
+    .btn .btn-two {
+        min-width: 50% !important;
+        
+    }
+    .btn-one :after {
+        height: 27px;
+        width: 27px;
+    }
+    .btn-two :after {
+        height: 27px;
+        width: 27px;
+    }
+    .btn-one a {
+        font-size: 30px;
+    }
+    .btn-two a {
+        font-size: 30px;
+    }
+    .box-two{
+        border: 1px solid #dfdfdf;
+    }
+    .div-one{
+        margin: 50px;
+    }
+    .box-two{
+        margin: 50px;
+    }
+    .first-befor {
+        font-size: 25px;
+        line-height: 60px;
+        position: absolute;
+        max-width: 340px;
+       
+    }
+    .image-div .image {
+        max-width: 172px;
+        max-height: 139px;
+    }
+    .image-div {
+        height: 283px;
+        padding-top: 54px;
+    }
+    .title {
+        font-size: 35px !important;
+    }
+    .list ul li {
+        font-size: 35px;
+    }
+    .list ul li::before {
+        font-size: 43px;
+        height: 30px;
+        width: 33px;
+    }
+    
+}

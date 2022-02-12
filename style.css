@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* first div */
+
+
+.container{
+    width: 980px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.row{
+    box-shadow: 0 5px 10px 0 rgba(29,28,28,.15);
+}
+
+body, button, input, select, textarea, .btn-one a .btn-two a  h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 1rem;
+}
+
+
+.first-befor{
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    top: -1px;
+    color: rgb(250, 250, 250);
+    padding: 4px 18px 40px 18px;
+    clip-path: polygon(50% 0,97% 2%,95% 59%,57% 74%,43% 74%,7% 58%,4% 2%);
+    background-color: #27ae60;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 170px;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.head-one .first-befor::before{
+    content: "\2605";
+}
+.head-one .first-befor::before{
+    position: absolute;
+    bottom: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    left: 0;
+    right: 0;
+}
+.image-div .image{
+    max-width: 115px;
+    max-height: 115px;
+    display: block;
+    transition: none!important;
+    transform-origin: center center;
+    margin: auto;
+}
+.image-div{
+    height: 190px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    padding-top: 54px;
+}
+.div-one:hover .image{
+    transform: scale(1.4);
+}
+.div-one{
+    max-width: 33.33%;
+    flex: 0 33.33%;
+    border: 1px solid #dfdfdf;
+    box-shadow: none;
+    position: relative;
+}
+.title{
+    font-size: 16px;
+    color: #121212 !important;
+    margin-bottom: 16px;
+    min-height: 36px;
+    padding: 0 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.div-one .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.title:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    width: 40px;
+    height: 1px;
+    background-color: #27ae60;
+}
+.list ul{
+    list-style: none;
+    padding-left: 1.4rem;
+}
+.list ul li{
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    line-height: inherit;
+    margin-left: 0;
+    text-align: left;
+    padding-left: 0;
+    color: #4b4f58;
+
+}
+.list ul li b{
+    font-weight: 600;
+}
+.list ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.list ul li::before{
+    content: "\2713";
+    position: relative;
+    left: -5px;
+    font-weight: 700;
+    background-color: #27ae60;
+    font-size: 10px;
+    height: 14px;
+    width: 14px;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14px;
+    margin-left: -14px;
+}
+
+.btn{
+    padding: 0 15px;
+    text-align: center!important;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 0 15px 0;
+}
+.btn-one a{
+    margin: 5px;
+    text-decoration: none;
+    color: #fff!important;
+}
+.btn .btn-one{
+    transition: none!important;
+    font-weight: 600;
+    min-width: 200px!important;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.27);
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 4px;
+    text-decoration: none;
+    background-color: #2b348e;
+    border: 0;
+    white-space: normal!important;
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+}
+.btn-one:hover {
+    opacity: .85;
+    color: #fff!important;
+    text-decoration: none!important;
+}
+.btn-one :after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg height='90' width='90' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 90'%3E%3Cpath fill='%23fff' d='M45,0C20.2,0,0,20.2,0,45s20.2,45,45,45c24.8,0,45-20.2,45-45C90,20.2,69.8,0,45,0z M45,83.8C23.5,83.8,6.2,66.5,6.2,45 S23.5,6.2,45,6.2c21.4,0,38.8,17.4,38.8,38.8C83.8,66.5,66.5,83.8,45,83.8z'/%3E%3Cpath fill='%23fff' d='M33,74c-0.9,0-1.8-0.4-2.5-1s-1-1.5-1-2.5c0-0.9,0.4-1.8,1-2.5l23-23l-23-23c-1.4-1.4-1.3-3.6,0.1-5c1.4-1.3,3.5-1.3,4.9,0 l0,0L61,42.5c1.4,1.4,1.4,3.6,0,4.9L35.5,72.9C34.9,73.6,34,74,33,74z'/%3E%3C/svg%3E");
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.btn .btn-two a{
+    margin: 5px;
+    text-decoration: none;
+    color: #fff!important;
+}
+.btn .btn-two{
+    transition: none!important;
+    font-weight: 600;
+    min-width: 200px!important;
+    text-align: center;
+    color: #fff!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.27);
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 4px;
+    text-decoration: none;
+    background-color: #d90000;
+    border: 0;
+    white-space: normal!important;
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+}
+
+.btn-two :after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg height='90' width='90' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 90'%3E%3Cpath fill='%23fff' d='M45,0C20.2,0,0,20.2,0,45s20.2,45,45,45c24.8,0,45-20.2,45-45C90,20.2,69.8,0,45,0z M45,83.8C23.5,83.8,6.2,66.5,6.2,45 S23.5,6.2,45,6.2c21.4,0,38.8,17.4,38.8,38.8C83.8,66.5,66.5,83.8,45,83.8z'/%3E%3Cpath fill='%23fff' d='M33,74c-0.9,0-1.8-0.4-2.5-1s-1-1.5-1-2.5c0-0.9,0.4-1.8,1-2.5l23-23l-23-23c-1.4-1.4-1.3-3.6,0.1-5c1.4-1.3,3.5-1.3,4.9,0 l0,0L61,42.5c1.4,1.4,1.4,3.6,0,4.9L35.5,72.9C34.9,73.6,34,74,33,74z'/%3E%3C/svg%3E");
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.box-two {
+    border-left: none;
+    border-right: none;
+}
+.ast-button, .ast-custom-button, body, button, input[type=button], input[type=submit], textarea {
+    line-height: 1.85714285714286;
+}
+
+
+
+
